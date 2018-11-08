@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Нанокальций</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" data-inprogress="">
+    <link rel="stylesheet" href="../css/fonts.css" data-inprogress="">
+    <link rel="stylesheet" href="../css/slick-theme.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/home.css" data-inprogress="">
+
+
+</head>
+
+<body>
+
+
+    <header class="header">
+        <nav>
+            <div class="header-action">
+                <a class="button button-header" href="tel:8 800 511 36 28">8 800 511 36 28</a>
+            </div>
+            <span class="button-description">Звонки по России бесплатные</span>
+        </nav>
+    </header>
+    <div class="popup-close remove"></div>
+
+    <div class="popup-appointment popup">
+        <div id="eModal" class="emodal theme-1 custom fixed custom-position">
+            <div class="emodal-content">
+                <div id="appointment-header" class="emodal-header">
+                    <h2>
+                        Соглашение об обработке персональных данных пользователей (посетителей) сайта www.nanoca.ru
+                    </h2>
+                </div>
+                <div class="emodal-body">
+                    <p> Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Российской Федерации.</p>
+                    <p>Все лица заполнившие сведения, составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки
+                        персональных данных.</p>
+                    <p>Пользователи направляют свои персональные данные оператору сайта в целях оказании сервисных услуг пользователю.</p>
+                    <h3>Пользователь гарантирует:</h3>
+                    <p>— при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц;<br> — вся предоставленная на сайт информация заполнена Пользователем в отношении себя лично;<br>                        — информация, предоставленная Пользователем, является полной, точной и достоверной;<br> — все действия по отправке информации на сайте совершены непосредственно Пользователем;<br> — не использовать чужие контактные данные, включая
+                        телефон, e-mail и т.п.;<br> — не создавать помехи в использовании Сайта другими Пользователями, в том числе посредством распространения компьютерных вирусов, неоднократного размещения дублирующей информации, одновременную отправку
+                        большого количества электронной почты либо запросов к Сайту и т.п;</p>
+                    <h3>Пользователь проинформирован:</h3>
+                    <p>— что настоящее Соглашение может быть им отозвано посредством направления письменного заявления Администрации сайта;<br> — что срок хранения и обработки его персональных данных устанавливается по усмотрению Администрации сайта и может
+                        составлять до 10 лет с момента последнего размещения Пользователем информации.
+                    </p>
+                    <h3>Под персональными данными Пользователя понимается нижеуказанная информация:
+                    </h3>
+                    <p>— общая информация (Имя, телефон и адрес электронной почты);<br> — любая иная информация, касающаяся Пользователя и раскрытая им при заполнении анкет, контактных форм, а также любым другим способом на данном сайте.</p>
+                    <p>
+                        Пользователи, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение),
+                        использование, уничтожение.
+                    </p>
+
+                </div>
+                <div id="appointment-footer" class="emodal-footer">
+                    <a class="button close-button emodal-close">Закрыть окно</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="popup-close-buy remove"></div>
+
+    <div class="popup-buy">
+        <div class="buy-form">
+            <div class="header-form">
+                <h2>
+                    Для покупки заполните и отправьте заявку
+                </h2>
+            </div>
+            <span class="close"></span>
+            <form class="form">
+                <div class="form-row">
+                    <div class="form-column marker">
+                        <label>Ваш телефон</label><span>Поле не заполнено</span>
+                        <input required type="tel" class="col" name="telephone" placeholder="+7(___)___-__-__">
+                    </div>
+                    <div class="form-column marker">
+                        <label>Ваше Имя</label><span>Поле не заполнено</span>
+                        <input required type="text" class="col" name="Name" placeholder="Укажите ваше имя">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-column column-qualiti">
+                        <label>Количество</label>
+                        <input required type="text" class="col" name="
+                                quantity" placeholder="Кол-во упаковок">
+                    </div>
+                    <span class="quantity">1200 руб.</span>
+                </div>
+                <div class="form-group form-row">
+                    <div class="form-column">
+                        <label>Ваш адрес</label>
+                        <input required type="text" class="col" name="address" placeholder="Укажите Ваш адрес">
+                    </div>
+                    <div class="form-column">
+                        <label>Ваш E-mail</label>
+                        <input required type="text" class="col" name="mail" placeholder="Укажите E-mail">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Данные не обязательные для заполнения,<span> вам перезвонит наш оператор и уточнит.</span></h3>
+                </div>
+            </form>
+            <div class="footer-form">
+                <div class="price-form">
+                    <span>Итого: </span>
+                    <span class="color">1200 руб </span>
+                </div>
+                <div class="form-action">
+                    <a class="" href="index.html">Купить</a>
+                </div>
+                <div class="footer-popup">
+                    <a href="#" class="popup-first">Соглашение об обработке персональных данных</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-buy">
+        <a href="#" class="popup-link">Купи сейчас 3200&#8381;</a>
+        <div class="text-buy">
+            <p>C бесплатной доставкой до двери</p>
+        </div>
+    </div>
+
+    <div class="button-up">
+        <a href="#wrapper" class="go-to">
+            <img src="../img/arrow.png" alt="image">
+            Вверх
+        </a>
+    </div>
+
+    <div class="wrapper" id="wrapper">
+        <main class="main">
+            <div class="section-banner">
+                <div class="section-background">
+                </div>
+                <div class="section-foreground">
+                    <div class="container">
+                        <div class="section-body">
+                            <div class="section-image">
+                                <img src="../img/Layer-bg-1.png" alt="image">
+                            </div>
+                            <div class="section-content">
+                                <ul>
+                                    <li class="icon-ellipse">Усвоение более 90%</li>
+                                    <li class="icon-d3">Не требуется поддержка <span>витамином D3</span></li>
+                                    <li class="icon-fe">Не противодействует<span class="last">цинку и железу</span></li>
+                                </ul>
+                                <div class="section-description">
+                                    <span>
+                                        Рекомендовано для восстановления<br> костной ткани для людей пожилого возраста,<br>
+                                        людей с большой физической нагрузкой, и людей<br>
+                                        с пониженным содержанием кальция в организме
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-action">
+                            <a class="button popup-link" href="#">купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section section-advantages">
+                <div class="container">
+                    <h2 class="section-title">ПРЕИМУЩЕСТВА</h2>
+                    <div class="section-description">
+                        <p>
+                            Благодаря своей биологической активности, продукт усваивается через слизистую кишечника практически полностью, что позволяет избежать образования камней и максимально восполнить нехватку аминокислот в организме.
+                        </p>
+                    </div>
+                    <div class="section-body">
+                        <img src="../img/Layer-bg.png" alt="image">
+                        <div class="list row-1">
+                            <div class="list-item col-1">
+                                <p>Не содержит добавок</p>
+                                <div class="pulse1">
+                                </div>
+                            </div>
+                            <div class="list-item col-2">
+                                <p>Высокая биодоступность</p>
+                                <div class="pulse1">
+                                </div>
+                            </div>
+                            <div class="list-item col-3">
+                                <p>Показатель растворяемости более 90%</p>
+                                <div class="pulse1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list row-2">
+                            <div class="list-item col-4">
+                                <p>При растворении в воде сохраняет стабильную структуру</p>
+                                <div class="pulse1">
+                                </div>
+                            </div>
+                            <div class="list-item col-5">
+                                <p>Мало подвержен ионизации</p>
+                                <div class="pulse1">
+                                </div>
+                            </div>
+                            <div class="list-item col-6">
+                                <p>Имеет устойчивую молекулярную структуру</p>
+                                <div class="pulse1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-subtitle">
+                        <p>
+                            В органах желудочно-кишечного тракта продукт присутствует в форме аминокислотно-кальциевых молекул, поэтому он мало подвержен ионизации, не противодействует цинку и железу, а для его усвоения не требуется витамин D3.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="section section-comparison inverse">
+                <div class="container">
+                    <h2 class="section-title">СРАВНЕНИЕ С КОНКУРЕНТАМИ</h2>
+                    <div class="section-body">
+                        <div class="list desktop">
+                            <div class="item-action">
+                                <span class="larg">
+                                    Кальция Глюконат
+                                </span>
+                            </div>
+                            <div class="list list-differences">
+                                <div class="list-item ">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                Низкая растворимость
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Низкая усвояемость (3%)
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Гиперкальциемия
+                                                Образование камней
+                                                в почках и желчном пузыре
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Необходим витамин D3
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Раздражает слизистую<br>
+                                                оболочку желудочно-кишечного тракта
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list desktop">
+                            <div class="item-action">
+                                <span class="larg">
+                                    Карбонат кальция
+                                </span>
+                            </div>
+                            <div class="list list-differences">
+                                <div class="list-item column-2">
+                                    <ul class="">
+                                        <li>
+                                            <span>
+                                                Низкая растворимость
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Низкая усвояемость<br>
+                                                (менее 25%)
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Образование кальциевых
+                                                камешков в почках
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Необходим витамин D3
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Раздражает слизистую<br>
+                                                оболочку желудочно-кишечного тракта
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list desktop">
+                            <div class="item-action">
+                                <span class="larg">
+                                    Цитрат кальция
+                                </span>
+                            </div>
+                            <div class="list list-differences">
+                                <div class="list-item column-3">
+                                    <ul class="">
+                                        <li>
+                                            <span>
+                                                Низкая растворимость
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Низкая усвояемость<br> (около 44%)
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Метеоризм
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Необходим витамин D3
+                                            </span>
+                                            <span class="line">&mdash;</span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Не раздражает слизистую<br>
+                                                оболочку желудочно-кишечного тракта
+                                            </span>
+                                            <img style="margin-left: 0;" src="../img/Forma-6.png" alt="image">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list desktop">
+                            <div class="item-action">
+                                <span class="larg">
+                                    Хелат кальция
+                                </span>
+                            </div>
+                            <div class="list list-differences">
+                                <div class="list-item column-4">
+                                    <ul class="">
+                                        <li>
+                                            <span>
+                                                Высокий показатель
+                                                растворимости (более 98%)
+                                            </span>
+                                            <img src="../img/Forma-6.png" alt="image">
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Высокая усвояемость
+                                                (более 90%)
+                                            </span>
+                                            <img src="../img/Forma-6.png" alt="image">
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Отсутствуют
+                                            </span>
+                                            <img src="../img/Forma-6.png" alt="image">
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Не требуется витамин D3
+                                            </span>
+                                            <img src="../img/Forma-6.png" alt="image">
+                                        </li>
+                                        <li>
+                                            <span>
+                                                Не раздражает слизистую<br>оболочку желудочно-кишечного тракта, PH=7
+                                            </span>
+                                            <img src="../img/Forma-6.png" alt="image">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile">
+                            <div class="list fixed">
+                                <div class="item-action">
+                                    <span class="larg">
+                                        Хелат кальция
+                                    </span>
+                                </div>
+                                <div class="list list-differences">
+                                    <div class="list-item column-4">
+                                        <ul class="">
+                                            <li>
+                                                <span>
+                                                    Высокий показатель
+                                                    растворимости (более 98%)
+                                                </span>
+                                                <img src="../img/Forma-6.png" alt="image">
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Высокая усвояемость
+                                                    (более 90%)
+                                                </span>
+                                                <img src="../img/Forma-6.png" alt="image">
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Отсутствуют
+                                                </span>
+                                                <img src="../img/Forma-6.png" alt="image">
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Не требуется витамин D3
+                                                </span>
+                                                <img src="../img/Forma-6.png" alt="image">
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    Не раздражает слизистую<br>оболочку желудочно-кишечного тракта,
+                                                    PH=7
+                                                </span>
+                                                <img src="../img/Forma-6.png" alt="image">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-scroll slider">
+                                <div class="list">
+                                    <div class="item-action">
+                                        <span class="larg">
+                                            Кальция Глюконат
+                                        </span>
+                                    </div>
+                                    <div class="list list-differences">
+                                        <div class="list-item ">
+                                            <ul>
+                                                <li>
+                                                    <span>
+                                                        Низкая растворимость
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Низкая усвояемость (3%)
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Гиперкальциемия
+                                                        Образование камней
+                                                        в почках и желчном пузыре
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Необходим витамин D3
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Раздражает слизистую<br>
+                                                        оболочку желудочно-кишечного тракта
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="item-action">
+                                        <span class="larg">
+                                            Карбонат кальция
+                                        </span>
+                                    </div>
+                                    <div class="list list-differences">
+                                        <div class="list-item column-2">
+                                            <ul class="">
+                                                <li>
+                                                    <span>
+                                                        Низкая растворимость
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Низкая усвояемость<br>
+                                                        (менее 25%)
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Образование кальциевых
+                                                        камешков в почках
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Необходим витамин D3
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Раздражает слизистую<br>
+                                                        оболочку желудочно-кишечного тракта
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list your-slider">
+                                    <div class="item-action">
+                                        <span class="larg">
+                                            Цитрат кальция
+                                        </span>
+                                    </div>
+                                    <div class="list list-differences">
+                                        <div class="list-item column-3">
+                                            <ul class="">
+                                                <li>
+                                                    <span>
+                                                        Низкая растворимость
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Низкая усвояемость<br> (около 44%)
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Метеоризм
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Необходим витамин D3
+                                                    </span>
+                                                    <span class="line">&mdash;</span>
+                                                </li>
+                                                <li>
+                                                    <span>
+                                                        Не раздражает слизистую<br>
+                                                        оболочку желудочно-кишечного тракта
+                                                    </span>
+                                                    <img style="margin-left: 0;" src="../img/Forma-6.png" alt="image">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-about">
+                <div class="container">
+                    <h2 class="section-title">ЧЕМ ОПАСЕН ДЕФИЦИТ КАЛЬЦИЯ В ОРГАНИЗМЕ</h2>
+                    <div class="section-body">
+                        <div class="list">
+                            <div class="list-item ">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-icon">
+                                            <img src="../img/icon-logo-4.png" alt="image">
+                                        </div>
+                                        <div class="card-title">
+                                            <h2>ВО ВРЕМЯ БЕРЕМЕННОСТИ</h2>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Судороги и ломота нижних
+                                            <br> конечностей, боли в<br> суставах и костях; повышение
+                                            <br> артериального давления;
+                                            <br> отеки ног; задержка роста плода<br> и угроза выкидыша.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item ">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-icon">
+                                            <img src="../img/icon-logo-5.png" alt="image">
+                                        </div>
+                                        <div class="card-title purple">
+                                            <h2>В ПОЖИЛОМ ВОЗРАСТЕ
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>
+                                            Остеопороз, деформация позвоночника, мышечные судороги, онемение конечностей; атеросклероз; общая слабость, запоры, диурез, неврастения, болезнь Альцгеймера (старческое слабоумие).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item ">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-icon">
+                                            <img src="../img/icon-logo-6.png" alt="image">
+                                        </div>
+                                        <div class="card-title orange">
+                                            <h2>У ДЕТЕЙ</h2>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>
+                                            Потеря аппетита, ослабление иммунитета, частые простудные заболевания, нарушение роста волос, поздний рост зубов, задержка психического развития.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item ">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-icon">
+                                            <img src="../img/icon-logo-7.png" alt="image">
+                                        </div>
+                                        <div class="card-title blue">
+                                            <h2>У МОЛОДЫХ ЛЮДЕЙ
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>
+                                            Повышенная утомляемость, невозможность концентрации внимания, слабость, раздражительность; кариес, гипоплазия зубов; замедление физического развития, роста; частые простудные заболевания, аллергия.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-action">
+                            <a class="button popup-link" href="#">купить</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-composition">
+                <div class="section-background">
+                </div>
+                <div class="section-foreground">
+                    <div class="container">
+                        <div class="section-body">
+                            <div class="section-image">
+                                <img src="../img/Layer-bg-3.png" alt="image">
+                            </div>
+                            <div class="section-content">
+                                <ul>
+                                    <li><span>Форма выпуска:</span> порошкообразная. 90 грамм.</li>
+                                    <li><span>Состав:</span> Аминокислотный хелат кальция.</li>
+                                    <li><span>Рекомендации по применению:</span></li>
+                                </ul>
+                                <div class="section-description">
+                                    <span>
+                                        Детям старше 14 лет и взрослым<br>
+                                        по 1 мерной ложке 2 раза в день (2 грамма) во время еды,<br>
+                                        предварительно растворив в теплой воде.<br>
+                                        Возможно добавление в пищу.<br>
+                                        Детям до 14 лет, беременным, а так же в период лактации
+                                        применение возможно после консультации с врачом.<br>
+                                        Дозировка может быть назначена врачом индивидуально
+                                        в зависимости от возраста и степени<br>
+                                        дефицита кальция в организме.<br>
+                                        Мерная ложка равна одному грамму продукта.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-action">
+                            <a class="button popup-link" href="#">купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-body">
+                <div class="footer-certificate">
+                    <span>ТОВАР СЕРТИФИЦИРОВАН.</span>
+                    <p>
+                        Рекомендован ФГБНУ «ФИЦ питания и биотехнологии №529/Э-538/б-16 от 23.06.2016г.» <br> для реализации населению в качестве биологически активной добавки к пище – источника кальция. Свидетельство о государственной регистрации № RU.77.99.32.003.E.003607.08.16
+                        от 15.08.2016г.</p>
+                </div>
+                <div class="footer-action">
+                    <a class="button button-footer" href="../img/brochure.pdf">Презентация продукта</a>
+                    <div class="footer-popup">
+                        <a href="#" class="popup-first">Соглашение об обработке персональных данных</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/script.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.slider').slick({
+                dots: true,
+                vertical: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                verticalSwiping: true,
+                arrows: false,
+                infinite: false,
+                dots: false,
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>
